@@ -1,0 +1,11 @@
+@use '../../../styles/vars';
+
+.navbar {
+    width: 25%;
+    &__itemList {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    color: vars.$Grayish-Blue;
+    }
+}

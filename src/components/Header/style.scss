@@ -1,0 +1,11 @@
+@use '../../styles/vars';
+
+.header {
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: vars.$White;
+    z-index: 10;
+    position: relative;
+}

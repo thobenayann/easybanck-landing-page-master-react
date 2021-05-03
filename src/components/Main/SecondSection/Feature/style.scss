@@ -1,0 +1,22 @@
+@use '../../../../styles/vars';
+
+.feature {
+    width: 22%;
+    &__img {
+        width: 5em;
+        margin-bottom: 2em;
+    }
+    &__title {
+        font-size: 1.5em;
+        font-weight: 400;
+        color: vars.$Dark-Blue;
+        margin-bottom: 1.5em;
+    }
+    &__paragraph{
+        color: vars.$Grayish-Blue;
+        font-size: 1.15em;
+        line-height: 1.5em;
+        text-align: start;
+        margin-bottom: 2em;
+    }
+}
