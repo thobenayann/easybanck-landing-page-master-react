@@ -3,29 +3,27 @@
 .secondSection {
     display:flex;
     flex-direction: column;
-    height: 49em;
+    height: 41em;
     background-color: vars.$Light-Grayish-Blue;
     &__article {
         display: flex;
         flex-direction: column;
-        width: 50%;
-        padding: 10em 0 3em 10em;
+        padding: 8em 45em 0 22em;
         &__title {
-            font-size: 3em;
+            font-size: 2em;
             font-weight: 400;
             color: vars.$Dark-Blue;
             margin-bottom: 0.5em;
         }
         &__paragraph{
             color: vars.$Grayish-Blue;
-            font-size: 1.2em;
             line-height: 1.5em;
-            margin-bottom: 2em;
+            margin-bottom: 3em;
         }
     }
     &__features {
         display: flex;
         justify-content: space-between;
-        padding: 0 10em;
+        padding: 0 22em;
     } 
 }

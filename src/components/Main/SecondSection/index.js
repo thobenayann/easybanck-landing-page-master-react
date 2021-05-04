@@ -5,6 +5,8 @@ import Feature from './Feature';
 
 // CSS
 import './style.scss';
+
+// IMG
 import iconOnline from '../../../docs/easybank-landing-page-master/images/icon-online.svg';
 import iconBudgeting from '../../../docs/easybank-landing-page-master/images/icon-budgeting.svg';
 import iconOnBoarding from '../../../docs/easybank-landing-page-master/images/icon-onboarding.svg';

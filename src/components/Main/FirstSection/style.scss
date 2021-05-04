@@ -2,39 +2,43 @@
 
 .firstSection {
     display:flex;
-    height: 49em;
+    height: 41em;
     background-color: vars.$Very-Light-Gray;
     &__article {
         display: flex;
         flex-direction: column;
         width: 50%;
-        padding: 10em;
+        padding: 14em 3em 0 22em;
         &__title {
-            font-size: 4em;
+            font-size: 3em;
             font-weight: 400;
             color: vars.$Dark-Blue;
             margin-bottom: 0.5em;
         }
         &__paragraph{
             color: vars.$Grayish-Blue;
-            font-size: 1.2em;
+            font-size: 1.1em;
             line-height: 1.5em;
             text-align: start;
             margin-bottom: 2em;
         }
+        &__button {
+            font-size: 0.8em;
+        }
     }
-    &__bgImg {
-        position: absolute;
-        width: 90em;
-        top: -12em;
-        right: -30em;
-        z-index: 1;
+    &__illustrationContainer {
+        width: 50%;
+        height: 52em;
+        position: relative;
+        background: url(../../../docs/easybank-landing-page-master/images/bg-intro-desktop.svg) no-repeat;
+        background-size: cover;
+        background-position: -3em -7.5em;
     }
     &__bgMokups {
-        position: relative;
+        position: absolute;
         z-index: 2;
-        width: 55em;
-        top: -8em;
-        right: -8em;
+        top: -1.5em;
+        right: 4em;
+
     }
 }

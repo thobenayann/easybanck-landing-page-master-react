@@ -1,0 +1,17 @@
+@use '../../../styles/vars';
+
+.thirdSection {
+    height: 41em;
+    background-color: vars.$Very-Light-Gray;
+    padding: 8em 22em 0 22em;
+    &__title {
+        font-size: 2em;
+        font-weight: 400;
+        color: vars.$Dark-Blue;
+        margin-bottom: 1.8em;
+    }
+    &__articlesList {
+        display: flex;
+        justify-content: space-between;
+    }
+}
