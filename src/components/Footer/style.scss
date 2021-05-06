@@ -1,0 +1,52 @@
+@use '../../styles/vars';
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: vars.$Dark-Blue;
+    padding: 3em 22em;
+    &__logoList {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 18%;
+        color: vars.$White;
+        &__logo {
+            fill: vars.$White;
+            margin-left: 3.5em;
+        }
+        &__socialMedia {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__navLinksContainer {
+        width: 40%;
+        color: vars.$Very-Light-Gray;
+        font-weight: 300;
+        &__navLinks {
+            height: 6em;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            &__item {
+                height: 2em;
+                color: vars.$Light-Grayish-Blue;
+                font-size: 0.9rem;
+                font-weight: 300;
+            }
+        }
+    }
+    &__buttonAndCopyrightContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        font-size: 0.9rem;
+        width: 20%;
+        color: vars.$Grayish-Blue;
+    }
+
+}
