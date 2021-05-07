@@ -12,12 +12,20 @@
         width: 18%;
         color: vars.$White;
         &__logo {
-            fill: vars.$White;
             margin-left: 3.5em;
         }
         &__socialMedia {
             display: flex;
             justify-content: space-between;
+            &__img {
+                svg path {
+                    transition: fill 150ms ease-in-out;
+                  }
+                cursor: pointer;
+                  &:hover svg path {
+                    fill: #31D35C;
+                  }
+            }
         }
     }
     &__navLinksContainer {
@@ -36,6 +44,10 @@
                 color: vars.$Light-Grayish-Blue;
                 font-size: 0.9rem;
                 font-weight: 300;
+                &:hover {
+                    opacity: 0.8;
+                    color: vars.$Lime-Green;
+                }
             }
         }
     }
@@ -48,5 +60,7 @@
         width: 20%;
         color: vars.$Grayish-Blue;
     }
-
+    &__buttonAndCopyrightContainer p {
+        font-size: 0.85em;
+    }
 }

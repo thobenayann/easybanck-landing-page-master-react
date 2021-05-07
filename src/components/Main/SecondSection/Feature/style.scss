@@ -5,6 +5,10 @@
     &__img {
         width: 4em;
         margin-bottom: 2em;
+        cursor: pointer;
+        &:hover {
+            animation: rotationAndScale 1s ease-in-out;
+        }
     }
     &__title {
         font-size: 1.3em;
@@ -17,5 +21,16 @@
         font-size: 0.87em;
         line-height: 1.5em;
         text-align: start;
+    }
+}
+
+// -- ANIMATIONS -- //
+
+@keyframes rotationAndScale {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to {
+        transform: rotate(360deg) scale(1.2);
     }
 }

@@ -5,7 +5,29 @@
     &__itemList {
     display: flex;
     justify-content: space-around;
-    cursor: pointer;
-    color: vars.$Grayish-Blue;
+    color: vars.$Grayish-Blue;   
+    &__item {
+      cursor: pointer;
+      position: relative;
+      transition: color 300ms ease-in-out;
+      &:hover {
+        color: vars.$Dark-Blue;
+        &::before {
+          opacity: 1;
+        }
     }
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 5px;
+        left: 0;
+        right: 0;
+        bottom: -2.8rem;
+        background: linear-gradient(to right, vars.$Lime-Green, vars.$Bright-Cyan);
+        opacity: 0;
+        transition: opacity 300ms ease-in-out;
+      }
+    }
+  }
 }

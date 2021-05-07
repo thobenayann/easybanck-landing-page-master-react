@@ -20,5 +20,6 @@
 }
   
 .button:hover{
-    background: vars.$Linear-gradient;
+    opacity: 0.8;
+    transition: .3s;
 }

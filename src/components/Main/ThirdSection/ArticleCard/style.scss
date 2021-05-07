@@ -1,15 +1,20 @@
 @use '../../../../styles/vars';
 
 .articlesList__item {
-    width: 14em;
+    width: 12em;
     background-color: vars.$White;
     border-bottom-left-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.05);
+    }
     &__img {
-        width: 14em;
+        width: 12em;
         border-top-left-radius: 0.3em;
         border-top-right-radius: 0.3em;
-        min-height: 12em;
+        min-height: 11em;
         margin-bottom: 1em;
     }
     &__author {
@@ -21,6 +26,10 @@
         padding: 0.5rem 1.5rem;
         font-size: 0.9em;
         color: vars.$Dark-Blue;
+        cursor: pointer;
+        &:hover {
+            color: vars.$Lime-Green;
+        }
     }
     &__paragraph {
         padding: 0.5rem 1.5rem;
