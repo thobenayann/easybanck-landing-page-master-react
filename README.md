@@ -31,15 +31,15 @@ Users should be able to:
 
 - Desktop screenshot :
 
-![desktop-screenshot](./images/Easy-bank-landing-page-Desktop.jpg)
+![desktop-screenshot](./src/docs/easybank-landing-page-master/images/Easy-bank-landing-page-Desktop.jpg)
 
 - Mobile screenshot :
   
-![mobile-screenshot](./images/Easy-bank-landing-page-Mobile.jpg)
+![mobile-screenshot](./src/docs/easybank-landing-page-master/images/Easy-bank-landing-page-Mobile.jpg)
 
 - Mobile screenshot showing burger menu :
 
-![mobile-screenshot](./images/Easy-bank-landing-page-Mobile-burger-menu-active.jpg)
+![mobile-screenshot](./src/docs/easybank-landing-page-master/images/Easy-bank-landing-page-Mobile-burger-menu-active.jpg)
 
 ### Links
 
