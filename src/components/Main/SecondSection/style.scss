@@ -27,3 +27,22 @@
         padding: 0 22em;
     } 
 }
+
+// -- RESPONSIVE -- //
+
+@media screen and (max-width:375px) {
+    .secondSection {
+        height: auto;
+        &__article {
+            padding: 3em 1em;
+            align-items: center;
+            text-align: center;
+        }
+        &__features {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: inherit;
+        } 
+  }
+}

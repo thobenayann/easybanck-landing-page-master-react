@@ -38,3 +38,17 @@
         line-height: 1.3em;
     }
 }
+
+// -- RESPONSIVE -- //
+
+@media screen and (max-width:375px) {
+    .articlesList__item {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-bottom: 2em;
+        &__img {
+            width: 100%;
+        }
+    }
+}

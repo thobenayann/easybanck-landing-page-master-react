@@ -64,3 +64,65 @@
         font-size: 0.85em;
     }
 }
+
+// -- RESPONSIVE -- //
+
+@media screen and (max-width:375px) {
+    .logoContainer {
+        display: flex;
+        justify-content: center;
+        width: inherit;
+    }
+
+    .footer {
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__logoList {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 70%;  
+            color: vars.$White;
+            &__logo {
+                margin-left: inherit;
+                }
+            &__socialMedia {
+                margin-top: 2em;   
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        &__navLinksContainer {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &__navLinks {
+                height: inherit;
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: nowrap;
+                &__item {
+                    margin-top: 1.5em;
+                }
+            }
+        }
+        &__buttonAndCopyrightContainer {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 1.5em;
+        }
+        &__buttonAndCopyrightContainer p {
+            margin-top: 1.5em;
+            font-size: 1em;
+        }
+    }
+}

@@ -23,3 +23,9 @@
     opacity: 0.8;
     transition: .3s;
 }
+
+@media screen and (max-width:375px) {
+    .buttonContainer {
+        display: none;
+    }
+  }
